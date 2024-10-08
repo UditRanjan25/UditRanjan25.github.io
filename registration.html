@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body align="center">
+    <div style="background-color: blueviolet;color: #0ee327;">
+        <h2 align="center">Registration form</h2>
+    </div>
+    <header>
+        
+        <table border="4" align="center">
+            <tr>
+                <td><a href="index.html">Home</a></td>
+                <td><a href="/registration.html">Register</a></td>
+                <td><a href="login.html">Login</a></td>
+                <td><a href="course-details.html">Course Details</a></td>
+            </tr>
+        </table><br><br>
+    </header>
+    <main>
+    <div>
+        <form>
+            <label>first Name:</label>
+            <input type="text" placeholder="Enter your name" required style="margin-left:5%"><br><br>
+            <label>Address</label>
+            <textarea></textarea><br><br>
+            <label>Contact No.</label>
+            <input type="number"><br><br>
+            <label>Email:</label>
+            <input type="email"><br><br>
+            subjects:
+            <input type="checkbox">C++
+            <input type="checkbox">C
+            <input type="checkbox" checked>Java
+            <input type="checkbox">Python<br>
+            <label>Gender:</label>
+            <input type="radio" name="gen">Male
+            <input type="radio" name="gen">Female<br>
+            <label>Country:</label>
+            <select>
+                <option selected disabled>--Select country--</option>
+                <option>India</option>
+                <option>Pakistan</option>
+                <option>China</option>
+                <option>England</option>
+                <option>Germany</option>
+                
+            </select><br><br>
+            <label>Upload File:</label>
+                <input type="file"><br><br>
+                <button>ok</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="button" value="cancel">&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="submit">&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="reset"><br>
+                <progress value="50" max="100"></progress>
+                <fieldset>
+                    <legend>User Details:</legend>
+                    username:
+                    <input type="text"><br>
+                    Password:
+                    <input type="password">
+                </fieldset>
+        </form>
+    </div>
+</body>
+</html>
